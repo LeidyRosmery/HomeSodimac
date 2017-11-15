@@ -4,31 +4,17 @@
 }
 
 
-.div-tienda {
-    background: #D9EDF7;
-    margin: 10px;
-    padding: 25px 32px;
-}
 
-.div-tienda p {
-    margin: 0;
-    padding: 0;
-}
 
 .div-mediano {}
 
-.bord-tranform {
-    border-top: 18px #CCCCCC solid;
-}
+
 
 .img-vision {
     position: relative;
     top: 59px;
 }
 
-.bd-left {
-    border-left: 1px #CCCCCC solid;
-}
 
 select {
 
@@ -310,20 +296,98 @@ li.sesion a {
     margin: 0;
     line-height: 23px;
 }
-.btn-info{
-  color: #0072ce;
-  width: 100%;
-  font-size: 19px;
-  height: 57px;
-  border: none;
-  border-top: 1px solid #0072ce;
-  border-bottom: 1px solid #0072ce;
-  background: #EDEDED;
+
+.btn-info {
+    color: #0072ce;
+    width: 100%;
+    font-size: 19px;
+    height: 57px;
+    border: none;
+    border-top: 1px solid #0072ce;
+    border-bottom: 1px solid #0072ce;
+    background: #EDEDED;
+    font-weight: bold;
+}
+
+.div-tienda {
+    background: #D9EDF7;
+    margin: 10px 0px;
+    padding: 25px 32px;
+    color: #31708f;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.div-tienda p {
+    margin: 0;
+    padding: 0;
+}
+
+.bord-tranform {
+    border-top: 18px #CCCCCC solid;
+}
+.text-more{
+  position: absolute;
+  top: 218px;
+  left: 166px;
   font-weight: bold;
+}
+.arrow{
+  font-weight: bold;
+      position: absolute;
+      top: 218px;
+      left: 154px;
+      font-size: 16px;
 
 }
 
+
+.bd-left {
+    border-left: 1px #CCCCCC solid;
+}
 /*media desktop*/
+footer{
+  padding-top:50px;
+  padding-bottom: 100px;
+}
+footer ul , footer span{
+  list-style: none;
+  padding-left: 10px;
+  font-size: 11px;
+  font-family: 'helvetica';
+  color: #000;
+}
+
+span.font-skyblue {
+    padding-left: 20px;}
+.title-footer {
+  font-weight: bold;
+}
+.pad-footer{
+      padding: 0 34px;
+}
+.social{
+      padding: 0 3.2px;
+}
+.llamanos {
+    font-size: 13px;
+    position: relative;
+    bottom: 22px;
+}
+.number {
+    position: absolute;
+    top: 39px;
+    font-weight: bold;
+    font-size: 22px;
+    /* padding-bottom: 12px; */
+    left: 74px;
+}
+select {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 8px;
+    border: 1px solid  #005DAD;
+}
 
 @media (min-width: 1281px) {
     .menu-main {
@@ -360,11 +424,16 @@ li.sesion a {
     .title-section {
         height: 91px;
     }
-    .tabs{
-      padding-top: 28px ;
+    .tabs {
+        padding-top: 28px;
     }
     .info {
-    border: none;
-    padding: 14px 0px;
-}
+        border: none;
+        padding: 14px 0px;
+    }
+    .div-tienda {
+        padding: 17px 21px;
+        font-size: 14px;
+    }
+
 }
