@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'miso-bold';
+    src: url("../fonts/Miso_Bold/miso-bold.eot"), url("../fonts/Miso_Bold/miso-bold.svg"), url("../fonts/Miso-Bold/miso-bold.ttf"), url("../fonts/Miso_Bold/miso-bold.woff");
+}
+
+.top-header {
+    height: 25px;
+    background-color: #F0F0F0;
+}
+
+.link {
+    width: 65px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/top-logos.png);
+    background-repeat: no-repeat;
+}
+
+.container.top-hd a, .menu-contact.container a {
+    color: #333;
+}
+
+.container.top-hd ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 85px;
+    float: right;
+}
+
+.container.top-hd ul li {
+    display: inline-block;
+}
+
+.link-fb {
+    background-position: 0px 0px;
+}
+
+.link-banco {
+    background-position: -111px 0px;
+    width: 93px;
+}
+
+.link-viajes {
+    background-position: -203px 0px;
+    width: 75px;
+}
+
+.link-seguros {
+    background-position: -279px 0px;
+    width: 68px;
+}
+
+.link-sodimac {
+    background-position: -345px 0px;
+    width: 86px;
+}
+
+.link-tottus {
+    background-position: -499px 0px;
+}
+
+.menu-contact {
+    padding: 11px 68px;
+}
+
+.menu-main {
+    height: 68px;
+    border-bottom: 2.5px solid #F1F1F1;
+}
+
+.navbar-default {
+    background: #fff;
+    padding: 0 165px;
+    border: none;
+}
+
+.contador {
+    background: #DD0021;
+    border-radius: 57px;
+    color: #fff;
+    margin-left: 18px;
+    padding: 3px 9px;
+}
+
+.navbar-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px 10px 0px;
+    margin: 0;
+    border: 2px solid #CCCCCC;
+    height: 50px;
+    border-radius: 4px;
+    width: 643px;
+}
+
+input.form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.logo-sodimac {
+    padding-right: 85px;
+}
+
+.menu-list {
+    height: 54px;
+    margin-bottom: 22px;
+    width: 100%;
+    border-bottom: 3px #333 solid;
+}
+
+.menu-list .container>ul {
+    width: 100%;
+    padding: 10px 65px;
+}
+
+.menu-list .container>ul>li {
+    display: inline-block;
+}
+
+li.barra.barra-categoria {
+    padding-right: 87px;
+}
+
+li.barra.barra-campaña {
+    padding-right: 108px;
+}
+
+li.barra.barra-tienda a {
+    padding-right: 90px;
+    font-weight: 400;
+}
+
+li.barra.barra-sesion a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li.sesion a {
+    text-decoration-line: underline;
+}
+
+.font-blue {
+    color: #0075D8;
+}
+
+.font-white {
+    color: #fff;
+}
+
+.state-section.container {
+    padding: 0px 80px;
+}
+
+.separador {
+    padding: 0 3px;
+}
+
+.pd {
+    padding: 0px 80px;
+}
+
+.pd-small {
+    padding: 0px 27px;
+}
+
+.title-section {
+    border-bottom: 1px dashed #CCCCCC;
+    height: 107px;
+    padding-top: 28px;
+    /*  margin-bottom: 20px;*/
+}
+
+.title-home {
+    font-family: 'miso-bold';
+    font-weight: bold;
+}
+
+.tabs {
+    padding-top: 33px;
+}
+
+.tabs.container.pd ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    height: 48px;
+}
+
+.tabs.container.pd ul li {
+    height: 48px;
+    float: left;
+    display: inline-block;
+}
+
+.tabs.container.pd ul li a {
+    height: 48px;
+    width: 161px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0075D8;
+    border: 1px solid #DDDDDD;
+}
+
+.active {
+    color: #0075D8 !important;
+    background-color: #fff !important;
+}
+
+.info {
+    height: 150px;
+    width: 950px;
+    top: 47px;
+    position: relative;
+    border: 1px solid #DDDDDD;
+}
+
+.div-tienda {
+    background: #D9EDF7;
+    margin: 10px;
+    padding: 25px 32px;
+}
+
+.div-tienda p {
+    margin: 0;
+    padding: 0;
+}
+
+.div-mediano {}
+
+.bord-tranform {
+    border-top: 18px #CCCCCC solid;
+}
+
+.img-vision {
+    position: relative;
+    top: 59px;
+}
+
+.bd-left {
+    border-left: 1px #CCCCCC solid;
+}
+
+select {
+    /* width: 100%; */
+    display: block;
+    height: 29px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+footer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 17px;
+    font-size: 11px;
+}
+
+.title-footer {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+footer .info-footer ul {
+    width: 315px;
+    padding: 0;
+    padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .navbar-default {
+        padding: 0;
+    }
+}
