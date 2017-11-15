@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'miso-bold';
     src: url("../fonts/Miso_Bold/miso-bold.eot"), url("../fonts/Miso_Bold/miso-bold.svg"), url("../fonts/Miso-Bold/miso-bold.ttf"), url("../fonts/Miso_Bold/miso-bold.woff");
 }
@@ -63,49 +63,12 @@
     padding: 11px 68px;
 }
 
-.menu-main {
-    height: 68px;
-    border-bottom: 2.5px solid #F1F1F1;
-}
-
-.navbar-default {
-    background: #fff;
-    padding: 0 165px;
-    border: none;
-}
-
 .contador {
     background: #DD0021;
     border-radius: 57px;
     color: #fff;
     margin-left: 18px;
     padding: 3px 9px;
-}
-
-.navbar-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.form-group {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 16px 10px 0px;
-    margin: 0;
-    border: 2px solid #CCCCCC;
-    height: 50px;
-    border-radius: 4px;
-    width: 643px;
-}
-
-input.form-control {
-    border: none;
-    box-shadow: none;
-}
-
-.logo-sodimac {
-    padding-right: 85px;
 }
 
 .menu-list {
@@ -174,7 +137,7 @@ li.sesion a {
     border-bottom: 1px dashed #CCCCCC;
     height: 107px;
     padding-top: 28px;
-    /*  margin-bottom: 20px;*/
+
 }
 
 .title-home {
@@ -251,7 +214,7 @@ li.sesion a {
 }
 
 select {
-    /* width: 100%; */
+
     display: block;
     height: 29px;
     width: 180px;
@@ -275,10 +238,59 @@ footer .info-footer ul {
     width: 315px;
     padding: 0;
     padding-left: 15px;
+} */
+
+
+.menu-main {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 21px;
+    border-bottom: 3px solid #666666;
 }
 
-@media (max-width: 768px) {
-    .navbar-default {
-        padding: 0;
-    }
+.div-search, .div-cart, .div-logo {
+    display: inline-block;
+}
+
+.nav-main {
+    width: 100%;
+}
+
+.menu-hamburguesa {
+    color: #333;
+    font-size: 31px;
+}
+
+.logo-sodimac-xs, .contador {
+    padding-left: 14px;
+    position: relative;
+    bottom: 10px;
+}
+
+.contador {
+    background: #DD0021;
+    border-radius: 57px;
+    color: #fff;
+    padding: 6px 10px;
+    bottom: 5px;
+}
+
+.div-cart {
+    float: right;
+}
+
+.div-search {
+    width: 44%;
+}
+
+.icon-search {
+    float: right;
+}
+
+@media (min-width: 1281px) {
+  .div-search {
+
+  }
 }
